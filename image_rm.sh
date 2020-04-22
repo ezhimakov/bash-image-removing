@@ -1,6 +1,6 @@
 
 #!/bin/bash
-cd "/home/a/allshav4/topfolio.ru/public_html/uploads"
+cd "/sitedir/public_html/uploads"
 for fpath in $(find -type f)
 do
         foldername=`dirname "$fpath"`
